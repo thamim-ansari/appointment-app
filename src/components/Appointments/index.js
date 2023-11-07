@@ -83,7 +83,7 @@ class Appointments extends Component {
             <form className="form-container" onSubmit={this.addAppointmentList}>
               <h1 className="heading">Add Appointment</h1>
               <label htmlFor="title" className="title">
-                TITLE
+                Title
               </label>
               <input
                 id="title"
