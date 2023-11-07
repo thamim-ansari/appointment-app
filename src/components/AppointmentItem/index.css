@@ -1,0 +1,36 @@
+.list-items {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  border: 1px solid grey;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 10px;
+  border-radius: 16px;
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .list-items {
+    margin-left: 20px;
+  }
+}
+.list-title {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-top: 0;
+}
+.list-name {
+  color: darkgrey;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.star-btn {
+  align-self: flex-start;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+}
